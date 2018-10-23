@@ -31,10 +31,6 @@
       <change type="DELETED" beforePath="$USER_HOME$/Downloads/mdl-template-blog/.idea/vcs.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../SXZB1" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../club-showcase-backend/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/Flag_of_Canada.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/calendar-carved-carving-1480861.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/co1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/co2.jpg" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../sxzb_BE/.classpath" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../sxzb_BE/.idea/artifacts/sxzb_war.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../sxzb_BE/.idea/artifacts/sxzb_war_exploded.xml" afterPath="" />
@@ -3599,13 +3595,12 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/../sxzb_BE/target/m2e-wtp/web-resources/META-INF/maven/com.ssc/sxzb/pom.properties" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../sxzb_BE/target/m2e-wtp/web-resources/META-INF/maven/com.ssc/sxzb/pom.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../sxzb_BE/target/test-classes/venture/TestProjectDeploy.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/autumn-background.jpg" afterPath="$PROJECT_DIR$/images/autumn-background.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/autumn-fall-leaf-33961.jpg" afterPath="$PROJECT_DIR$/images/autumn-fall-leaf-33961.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../club-showcase-backend/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../club-showcase-backend/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../club-showcase-backend/app.py" afterPath="$PROJECT_DIR$/../club-showcase-backend/app.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../club-showcase-backend/db.py" afterPath="$PROJECT_DIR$/../club-showcase-backend/db.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../club-showcase-backend/templates/add_form.html" afterPath="$PROJECT_DIR$/../club-showcase-backend/templates/add_form.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ticket.html" afterPath="$PROJECT_DIR$/ticket.html" />
       <change type="MODIFICATION" beforePath="$APPLICATION_CONFIG_DIR$/options/dimensions.xml" afterPath="$APPLICATION_CONFIG_DIR$/options/dimensions.xml" />
       <change type="MODIFICATION" beforePath="$APPLICATION_CONFIG_DIR$/options/find.xml" afterPath="$APPLICATION_CONFIG_DIR$/options/find.xml" />
       <change type="MODIFICATION" beforePath="$APPLICATION_CONFIG_DIR$/options/recentProjectDirectories.xml" afterPath="$APPLICATION_CONFIG_DIR$/options/recentProjectDirectories.xml" />
@@ -3642,21 +3637,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="styles.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
+            <state relative-caret-position="-5777">
               <caret line="182" column="34" lean-forward="true" selection-start-line="182" selection-start-column="34" selection-end-line="182" selection-end-column="34" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ticket.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ticket.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ticket.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
-              <caret line="220" column="35" lean-forward="false" selection-start-line="220" selection-start-column="35" selection-end-line="220" selection-end-column="35" />
+            <state relative-caret-position="486">
+              <caret line="200" column="21" lean-forward="false" selection-start-line="200" selection-start-column="21" selection-end-line="200" selection-end-column="21" />
               <folding>
                 <element signature="n#style#0;n#div#2;n#div#0;n#div#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#p#0;n#div#2;n#div#0;n#div#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -3751,8 +3746,8 @@
       <list>
         <option value="$APPLICATION_CONFIG_DIR$/webstorm.vmoptions" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/ticket.html" />
         <option value="$PROJECT_DIR$/styles.css" />
+        <option value="$PROJECT_DIR$/ticket.html" />
       </list>
     </option>
   </component>
@@ -3848,12 +3843,12 @@
       <workItem from="1540117565875" duration="10000" />
       <workItem from="1540117617053" duration="218000" />
       <workItem from="1540117959945" duration="2187000" />
-      <workItem from="1540123027811" duration="17728000" />
+      <workItem from="1540123027811" duration="17928000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28535000" />
+    <option name="totallyTimeSpent" value="28735000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="83" y="23" width="1597" height="1027" extended-state="0" />
@@ -4254,10 +4249,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5777">
+          <caret line="182" column="34" lean-forward="true" selection-start-line="182" selection-start-column="34" selection-end-line="182" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ticket.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="220" column="35" lean-forward="false" selection-start-line="220" selection-start-column="35" selection-end-line="220" selection-end-column="35" />
+        <state relative-caret-position="486">
+          <caret line="200" column="21" lean-forward="false" selection-start-line="200" selection-start-column="21" selection-end-line="200" selection-end-column="21" />
           <folding>
             <element signature="n#style#0;n#div#2;n#div#0;n#div#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#0;n#div#2;n#div#0;n#div#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -4267,14 +4270,6 @@
             <element signature="n#style#0;n#div#0;n#div#1;n#dialog#0;n#div#0;n#div#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#dialog#1;n#div#0;n#div#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="182" column="34" lean-forward="true" selection-start-line="182" selection-start-column="34" selection-end-line="182" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
