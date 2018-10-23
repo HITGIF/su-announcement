@@ -3606,7 +3606,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../club-showcase-backend/db.py" afterPath="$PROJECT_DIR$/../club-showcase-backend/db.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../club-showcase-backend/templates/add_form.html" afterPath="$PROJECT_DIR$/../club-showcase-backend/templates/add_form.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles.css" afterPath="$PROJECT_DIR$/styles.css" />
       <change type="MODIFICATION" beforePath="$APPLICATION_CONFIG_DIR$/options/dimensions.xml" afterPath="$APPLICATION_CONFIG_DIR$/options/dimensions.xml" />
       <change type="MODIFICATION" beforePath="$APPLICATION_CONFIG_DIR$/options/find.xml" afterPath="$APPLICATION_CONFIG_DIR$/options/find.xml" />
       <change type="MODIFICATION" beforePath="$APPLICATION_CONFIG_DIR$/options/recentProjectDirectories.xml" afterPath="$APPLICATION_CONFIG_DIR$/options/recentProjectDirectories.xml" />
@@ -3646,8 +3645,8 @@
       <file leaf-file-name="styles.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="433">
-              <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+            <state relative-caret-position="341">
+              <caret line="182" column="34" lean-forward="true" selection-start-line="182" selection-start-column="34" selection-end-line="182" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -3708,7 +3707,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>.png</find>
       <find>hitgif</find>
       <find>more</find>
       <find>ticke</find>
@@ -3738,6 +3736,7 @@
       <find>bg_</find>
       <find>autumn</find>
       <find>3396</find>
+      <find>dbbb</find>
     </findStrings>
     <replaceStrings>
       <replace>.demo-blog .a .something-else</replace>
@@ -3849,12 +3848,12 @@
       <workItem from="1540117565875" duration="10000" />
       <workItem from="1540117617053" duration="218000" />
       <workItem from="1540117959945" duration="2187000" />
-      <workItem from="1540123027811" duration="17599000" />
+      <workItem from="1540123027811" duration="17728000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28406000" />
+    <option name="totallyTimeSpent" value="28535000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="83" y="23" width="1597" height="1027" extended-state="0" />
@@ -4273,8 +4272,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+        <state relative-caret-position="341">
+          <caret line="182" column="34" lean-forward="true" selection-start-line="182" selection-start-column="34" selection-end-line="182" selection-end-column="34" />
           <folding />
         </state>
       </provider>
