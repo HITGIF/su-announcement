@@ -95,14 +95,16 @@
             </div>
             <div class="mdl-color-text--grey-700" style="margin-bottom: 5rem; margin-left: 10%; margin-right: 10%">
               <!--<p style="font-size: 20px">-->
-                <!--1. Go to <a href="https://billetto.co.uk/e/halloween-party-mlzj-2018-tickets-314966/select"-->
-                            <!--target="_blank">here</a>.-->
+              <!--1. Go to <a href="https://billetto.co.uk/e/halloween-party-mlzj-2018-tickets-314966/select"-->
+              <!--target="_blank">here</a>.-->
               <!--</p>-->
               <p style="font-size: 20px">
                 1.
-                <button id="show-dialog" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+                <button id="show-dialog"
+                        class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
                   Get Your QR Code
                 </button>
+                *
               </p>
 
               <p style="font-size: 20px">
@@ -113,6 +115,15 @@
                 3. Show your QR Code at the entrance of the dance, we'll be scanning it.
               </p>
 
+              <!--<a style="font-size: 20px; margin-top: 5rem">-->
+              <p style="font-weight: 600; font-size: 20px; margin-top: 3rem">
+                * <br>
+                Every student, with or without purchasing ticket, are eligible to obtain their QR codes.
+                However, the QR code is only valid for entrance after payment being made.
+                <br><br>
+                所有学生，无论是否购票，都能获得自己的二维码。然而，该二维码仅能在付款后才能在入场时被检出。
+              </p>
+              <!--</a>-->
               <p style="font-size: 20px; margin-top: 5rem">
                 Still have questions? Ask QQ 643876119.
               </p>
@@ -180,7 +191,8 @@
         </form>
       </div>
       <div class="mdl-dialog__actions">
-        <div hidden id="spinner" style="margin-left: 1.7rem; margin-right: 2rem" class="mdl-spinner mdl-js-spinner is-active"></div>
+        <div hidden id="spinner" style="margin-left: 1.7rem; margin-right: 2rem"
+             class="mdl-spinner mdl-js-spinner is-active"></div>
         <button type="button" class="mdl-button" id="login">Login</button>
         <button type="button" class="mdl-button close">Cancel</button>
       </div>
@@ -227,6 +239,7 @@ showDialogButton.addEventListener('click', function () {
   dialog.showModal();
 });
 dialog.querySelector('.close').addEventListener('click', function () {
+  showSpinner(false);
   dialog.close();
 });
 alert.querySelector('.close').addEventListener('click', function () {
@@ -236,6 +249,7 @@ loginButton.addEventListener('click', function () {
   login();
 });
 var qr = new QRCode(document.getElementById("qrcode"), '');
+
 //var button = document.getElementById('btn-download');button.addEventListener('click', function (e) {button});
 function login() {
   var username = usernamef.value;
@@ -245,7 +259,7 @@ function login() {
     "async": true,
     "url": "https://api.mlzjsu.com/halloween/get_qr",
     "method": "POST",
-    "data": {"username":username,"password":password}
+    "data": {"username": username, "password": password}
   };
 
   $.ajax(settings).done(function (response) {
@@ -280,6 +294,7 @@ function login() {
 
   showSpinner(true);
 }
+
 function showSpinner(show) {
   if (show) {
     loginButton.setAttribute('hidden', 'true');
