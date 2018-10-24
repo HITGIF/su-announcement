@@ -179,8 +179,9 @@
         </p>
         <form action="#">
           <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-            <input class="mdl-textfield__input" type="text" id="username">
+            <input class="mdl-textfield__input" type="text" id="username" pattern="^[^@]+$">
             <label class="mdl-textfield__label" for="username">Moodle ID</label>
+            <span class="mdl-textfield__error">Please login with your ID instead of email.</span>
           </div>
         </form>
         <form action="#">
@@ -252,8 +253,13 @@ var qr = new QRCode(document.getElementById("qrcode"), '');
 
 //var button = document.getElementById('btn-download');button.addEventListener('click', function (e) {button});
 function login() {
+
   var username = usernamef.value;
   var password = passwordf.value;
+
+  if (username.indexOf('@') !== -1) {
+    return
+  }
 
   var settings = {
     "async": true,
@@ -268,26 +274,17 @@ function login() {
     if (response.error) {
       $('h4[name=title]').text('Error');
       $('p[name=message]').text(response.error);
+      document.getElementById("qrcode").setAttribute('hidden', true);
+      btndownload.setAttribute('hidden', true);
       alert.showModal()
     } else if (response.sign !== '') {
       $('h4[name=title]').text('Success');
       $('p[name=message]').text('This is your QR ticket, save it to your phone or print it.');
+      btndownload.removeAttribute('hidden');
+      document.getElementById("qrcode").removeAttribute('hidden');
       qr.makeCode(response.data + '|' + response.sign);
       btndownload.setAttribute('Download', 'halloween_qr_' + response.data + '.png');
       btndownload.setAttribute('href', $("canvas")[0].toDataURL('image/png'));
-//      var qrl = 'https://api.qrserver.com/v1/create-qr-code/?data='
-//        + response.data
-//        + '|'
-//        + response.sign
-//        +  '&amp;size=256x256'
-//      qrcode.setAttribute('src', qrl);
-
-//      var file = new File(["aa"], qrl);
-//      var link = document.createElement("a");
-//      link.download =file.name;
-//      link.href = file;
-//      link.click();
-
       alert.showModal()
     }
   });
