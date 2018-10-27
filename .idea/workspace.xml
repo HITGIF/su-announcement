@@ -3600,6 +3600,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../club-showcase-backend/db.py" afterPath="$PROJECT_DIR$/../club-showcase-backend/db.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../club-showcase-backend/templates/add_form.html" afterPath="$PROJECT_DIR$/../club-showcase-backend/templates/add_form.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/qrcode.js" afterPath="$PROJECT_DIR$/qrcode.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ticket.html" afterPath="$PROJECT_DIR$/ticket.html" />
       <change type="MODIFICATION" beforePath="$APPLICATION_CONFIG_DIR$/options/dimensions.xml" afterPath="$APPLICATION_CONFIG_DIR$/options/dimensions.xml" />
       <change type="MODIFICATION" beforePath="$APPLICATION_CONFIG_DIR$/options/find.xml" afterPath="$APPLICATION_CONFIG_DIR$/options/find.xml" />
@@ -3623,8 +3624,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="194" column="33" lean-forward="false" selection-start-line="194" selection-start-column="33" selection-end-line="194" selection-end-column="33" />
+            <state relative-caret-position="379">
+              <caret line="196" column="10" lean-forward="true" selection-start-line="196" selection-start-column="10" selection-end-line="196" selection-end-column="10" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#main#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h1#0;n#div#0;n#main#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -3640,7 +3641,7 @@
       <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4186">
+            <state relative-caret-position="839">
               <caret line="182" column="34" lean-forward="false" selection-start-line="182" selection-start-column="34" selection-end-line="182" selection-end-column="34" />
               <folding />
             </state>
@@ -3650,8 +3651,8 @@
       <file leaf-file-name="ticket.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ticket.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="536">
-              <caret line="263" column="18" lean-forward="true" selection-start-line="263" selection-start-column="18" selection-end-line="263" selection-end-column="18" />
+            <state relative-caret-position="249">
+              <caret line="187" column="56" lean-forward="false" selection-start-line="187" selection-start-column="56" selection-end-line="187" selection-end-column="56" />
               <folding>
                 <element signature="n#style#0;n#div#2;n#div#0;n#div#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#p#0;n#div#2;n#div#0;n#div#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -3669,32 +3670,16 @@
       <file leaf-file-name="qrcode.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/qrcode.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="13455">
-              <caret line="585" column="33" lean-forward="false" selection-start-line="585" selection-start-column="33" selection-end-line="585" selection-end-column="33" />
+            <state relative-caret-position="-1585">
+              <caret line="533" column="7" lean-forward="true" selection-start-line="533" selection-start-column="7" selection-end-line="533" selection-end-column="7" />
               <folding>
-                <marker date="1448390600000" expanded="true" signature="23005:23039" ph="..." />
-                <marker date="1448390600000" expanded="true" signature="23195:23393" ph="..." />
+                <marker date="1540606485433" expanded="true" signature="23218:23252" ph="..." />
+                <marker date="1540606485433" expanded="true" signature="23450:23597" ph="..." />
+                <marker date="1540606485433" expanded="true" signature="23818:23965" ph="..." />
+                <marker date="1540606485433" expanded="true" signature="24060:24258" ph="..." />
+                <marker date="1540606485433" expanded="true" signature="24368:24515" ph="..." />
+                <marker date="1540606485433" expanded="true" signature="24759:24906" ph="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="qrcode.min.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/qrcode.min.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="19461" lean-forward="false" selection-start-line="0" selection-start-column="19461" selection-end-line="0" selection-end-column="19461" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DHTML.js" pinned="false" current-in-tab="false">
-        <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DHTML.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22885">
-              <caret line="995" column="0" lean-forward="false" selection-start-line="995" selection-start-column="0" selection-end-line="995" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -3703,15 +3688,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>hitgif</find>
-      <find>more</find>
-      <find>ticke</find>
-      <find>view sour</find>
-      <find>.demo-blog .something-else</find>
-      <find>.demo-blog .a .something-else</find>
-      <find>something-else</find>
-      <find>\</find>
-      <find>typing</find>
       <find>management-bg</find>
       <find>road_big</find>
       <find>newer</find>
@@ -3733,6 +3709,15 @@
       <find>autumn</find>
       <find>3396</find>
       <find>dbbb</find>
+      <find>canvas</find>
+      <find>margin</find>
+      <find>quiet</find>
+      <find>qrcode</find>
+      <find>border</find>
+      <find>qrcode..js</find>
+      <find>append</find>
+      <find>qrcode.js</find>
+      <find>usesvg</find>
     </findStrings>
     <replaceStrings>
       <replace>.demo-blog .a .something-else</replace>
@@ -3748,6 +3733,7 @@
         <option value="$APPLICATION_CONFIG_DIR$/webstorm.vmoptions" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/styles.css" />
+        <option value="$PROJECT_DIR$/qrcode.js" />
         <option value="$PROJECT_DIR$/ticket.html" />
       </list>
     </option>
@@ -3789,6 +3775,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -3796,12 +3784,15 @@
               <item name="su-announcement" type="b2602c69:ProjectViewProjectNode" />
               <item name="su-announcement" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="su-announcement" type="b2602c69:ProjectViewProjectNode" />
+              <item name="su-announcement" type="462c0819:PsiDirectoryNode" />
+              <item name="qrcode.js" type="620a8d5e:NestingTreeNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -3846,26 +3837,27 @@
       <workItem from="1540117959945" duration="2187000" />
       <workItem from="1540123027811" duration="18298000" />
       <workItem from="1540336038641" duration="1804000" />
-      <workItem from="1540355854445" duration="1154000" />
+      <workItem from="1540355854445" duration="1239000" />
+      <workItem from="1540564210313" duration="3022000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32063000" />
+    <option name="totallyTimeSpent" value="35170000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="83" y="23" width="1597" height="1027" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14403553" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27784577" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -3949,8 +3941,12 @@
         <state relative-caret-position="13455">
           <caret line="585" column="33" lean-forward="false" selection-start-line="585" selection-start-column="33" selection-end-line="585" selection-end-column="33" />
           <folding>
-            <marker date="1448390600000" expanded="true" signature="23005:23039" ph="..." />
-            <marker date="1448390600000" expanded="true" signature="23195:23393" ph="..." />
+            <marker date="1540606485433" expanded="true" signature="23218:23252" ph="..." />
+            <marker date="1540606485433" expanded="true" signature="23450:23597" ph="..." />
+            <marker date="1540606485433" expanded="true" signature="23818:23965" ph="..." />
+            <marker date="1540606485433" expanded="true" signature="24060:24258" ph="..." />
+            <marker date="1540606485433" expanded="true" signature="24368:24515" ph="..." />
+            <marker date="1540606485433" expanded="true" signature="24759:24906" ph="..." />
           </folding>
         </state>
       </provider>
@@ -4340,9 +4336,16 @@
         <state />
       </provider>
     </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/E4X.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DHTML.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22885">
+        <state relative-caret-position="23">
           <caret line="995" column="0" lean-forward="false" selection-start-line="995" selection-start-column="0" selection-end-line="995" selection-end-column="0" />
           <folding />
         </state>
@@ -4350,27 +4353,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/qrcode.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="677">
           <caret line="0" column="19461" lean-forward="false" selection-start-line="0" selection-start-column="19461" selection-end-line="0" selection-end-column="19461" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/qrcode.js">
+    <entry file="file://$PROJECT_DIR$/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13455">
-          <caret line="585" column="33" lean-forward="false" selection-start-line="585" selection-start-column="33" selection-end-line="585" selection-end-column="33" />
-          <folding>
-            <marker date="1448390600000" expanded="true" signature="23005:23039" ph="..." />
-            <marker date="1448390600000" expanded="true" signature="23195:23393" ph="..." />
-          </folding>
+        <state relative-caret-position="839">
+          <caret line="182" column="34" lean-forward="false" selection-start-line="182" selection-start-column="34" selection-end-line="182" selection-end-column="34" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="194" column="33" lean-forward="false" selection-start-line="194" selection-start-column="33" selection-end-line="194" selection-end-column="33" />
+        <state relative-caret-position="379">
+          <caret line="196" column="10" lean-forward="true" selection-start-line="196" selection-start-column="10" selection-end-line="196" selection-end-column="10" />
           <folding>
             <element signature="n#style#0;n#div#0;n#main#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h1#0;n#div#0;n#main#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -4382,26 +4382,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/styles.css">
+    <entry file="file://$PROJECT_DIR$/qrcode.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4186">
-          <caret line="182" column="34" lean-forward="false" selection-start-line="182" selection-start-column="34" selection-end-line="182" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/E4X.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="-1585">
+          <caret line="533" column="7" lean-forward="true" selection-start-line="533" selection-start-column="7" selection-end-line="533" selection-end-column="7" />
+          <folding>
+            <marker date="1540606485433" expanded="true" signature="23218:23252" ph="..." />
+            <marker date="1540606485433" expanded="true" signature="23450:23597" ph="..." />
+            <marker date="1540606485433" expanded="true" signature="23818:23965" ph="..." />
+            <marker date="1540606485433" expanded="true" signature="24060:24258" ph="..." />
+            <marker date="1540606485433" expanded="true" signature="24368:24515" ph="..." />
+            <marker date="1540606485433" expanded="true" signature="24759:24906" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ticket.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="536">
-          <caret line="263" column="18" lean-forward="true" selection-start-line="263" selection-start-column="18" selection-end-line="263" selection-end-column="18" />
+        <state relative-caret-position="249">
+          <caret line="187" column="56" lean-forward="false" selection-start-line="187" selection-start-column="56" selection-end-line="187" selection-end-column="56" />
           <folding>
             <element signature="n#style#0;n#div#2;n#div#0;n#div#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#0;n#div#2;n#div#0;n#div#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
