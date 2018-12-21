@@ -220,87 +220,102 @@
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/dialog-polyfill@0.4.10/dialog-polyfill.min.js"></script>
   </body>
-</html>
-<script>
-var dialog = document.querySelector('#dialog');
-var alert = document.querySelector('#alert');
-var showDialogButton = document.querySelector('#show-dialog');
-var spinner = document.querySelector('#spinner');
-var loginButton = document.querySelector('#login');
-var usernamef = document.querySelector('#username');
-var passwordf = document.querySelector('#password');
-var btndownload = document.querySelector('#btn-download');
-if (!dialog.showModal) {
-  dialogPolyfill.registerDialog(dialog);
-}
-if (!alert.showModal) {
-  dialogPolyfill.registerDialog(alert);
-}
-showDialogButton.addEventListener('click', function () {
-  dialog.showModal();
-});
-dialog.querySelector('.close').addEventListener('click', function () {
-  showSpinner(false);
-  dialog.close();
-});
-alert.querySelector('.close').addEventListener('click', function () {
-  alert.close();
-});
-loginButton.addEventListener('click', function () {
-  login();
-});
-var qr = new QRCode(document.getElementById("qrcode"), '');
-
-//var button = document.getElementById('btn-download');button.addEventListener('click', function (e) {button});
-function login() {
-
-  var username = usernamef.value;
-  var password = passwordf.value;
-
-  if (username.indexOf('@') !== -1) {
-    return
+  <script>
+  var dialog = document.querySelector('#dialog');
+  var alert = document.querySelector('#alert');
+  var showDialogButton = document.querySelector('#show-dialog');
+  var spinner = document.querySelector('#spinner');
+  var loginButton = document.querySelector('#login');
+  var usernamef = document.querySelector('#username');
+  var passwordf = document.querySelector('#password');
+  var btndownload = document.querySelector('#btn-download');
+  if (!dialog.showModal) {
+    dialogPolyfill.registerDialog(dialog);
   }
-
-  var settings = {
-    "async": true,
-//    "url": "https://api.mlzjsu.com/halloween/get_qr",
-    "url": "http://127.0.0.1:5000/get_qr",
-    "method": "POST",
-    "data": {"username": username, "password": password}
-  };
-
-  $.ajax(settings).done(function (response) {
+  if (!alert.showModal) {
+    dialogPolyfill.registerDialog(alert);
+  }
+  showDialogButton.addEventListener('click', function () {
+    dialog.showModal();
+  });
+  dialog.querySelector('.close').addEventListener('click', function () {
     showSpinner(false);
     dialog.close();
-    if (response.error) {
-      $('h4[name=title]').text('Error');
-      $('p[name=message]').text(response.error);
-      document.getElementById("qrcode").setAttribute('hidden', true);
-      btndownload.setAttribute('hidden', true);
-      alert.showModal()
-    } else if (response.sign !== '') {
-      $('h4[name=title]').text('Success');
-      $('p[name=message]').text('This is your QR ticket, save it to your phone or print it.');
-      btndownload.removeAttribute('hidden');
-      document.getElementById("qrcode").removeAttribute('hidden');
-      qr.makeCode(response.data + '|' + response.sign);
-      btndownload.setAttribute('Download', 'halloween_qr_' + response.data + '.png');
-      $("canvas")[0]
-      btndownload.setAttribute('href', $("canvas")[0].toDataURL('image/png'));
-      alert.showModal()
-    }
   });
+  alert.querySelector('.close').addEventListener('click', function () {
+    alert.close();
+  });
+  loginButton.addEventListener('click', function () {
+    login();
+  });
+  var qr = new QRCode(document.getElementById("qrcode"), '');
 
-  showSpinner(true);
-}
+  //var button = document.getElementById('btn-download');button.addEventListener('click', function (e) {button});
+  function login () {
 
-function showSpinner(show) {
-  if (show) {
-    loginButton.setAttribute('hidden', 'true');
-    spinner.removeAttribute('hidden');
-  } else {
-    spinner.setAttribute('hidden', 'true');
-    loginButton.removeAttribute('hidden');
+    var username = usernamef.value;
+    var password = passwordf.value;
+
+    if (username.indexOf('@') !== -1) {
+      return
+    }
+
+    var settings = {
+      "async": true,
+//    "url": "https://api.mlzjsu.com/halloween/get_qr",
+      "url": "http://127.0.0.1:5000/get_qr",
+      "method": "POST",
+      "data": {"username": username, "password": password}
+    };
+
+    $.ajax(settings).done(function (response) {
+      showSpinner(false);
+      dialog.close();
+      if (response.error) {
+        $('h4[name=title]').text('Error');
+        $('p[name=message]').text(response.error);
+        document.getElementById("qrcode").setAttribute('hidden', true);
+        btndownload.setAttribute('hidden', true);
+        alert.showModal()
+      } else if (response.sign !== '') {
+        $('h4[name=title]').text('Success');
+        $('p[name=message]').text('This is your QR ticket, save it to your phone or print it.');
+        btndownload.removeAttribute('hidden');
+        document.getElementById("qrcode").removeAttribute('hidden');
+        qr.makeCode(response.data + '|' + response.sign);
+        btndownload.setAttribute('Download', 'halloween_qr_' + response.data + '.png');
+        $("canvas")[0]
+        btndownload.setAttribute('href', $("canvas")[0].toDataURL('image/png'));
+        alert.showModal()
+      }
+    });
+
+    showSpinner(true);
   }
-}
-</script>
+
+  function showSpinner (show) {
+    if (show) {
+      loginButton.setAttribute('hidden', 'true');
+      spinner.removeAttribute('hidden');
+    } else {
+      spinner.setAttribute('hidden', 'true');
+      loginButton.removeAttribute('hidden');
+    }
+  }
+
+  </script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-101976839-5"></script>
+  <script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag () {
+    dataLayer.push(arguments);
+  }
+
+  gtag('js', new Date());
+
+  gtag('config', 'UA-101976839-5');
+  </script>
+
+</html>
