@@ -30,7 +30,6 @@
       <change beforePath="$USER_HOME$/Downloads/ExpandingPager-master/.idea/libraries/org_hamcrest_hamcrest_core_1_3_jar.xml" beforeDir="false" />
       <change beforePath="$USER_HOME$/Downloads/ExpandingPager-master/ExpandingPager-master.iml" beforeDir="false" />
       <change beforePath="$USER_HOME$/Downloads/mdl-template-blog/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$USER_HOME$/Library/Preferences/WebStorm2017.2/options/dimensions.xml" beforeDir="false" afterPath="$USER_HOME$/Library/Preferences/WebStorm2017.2/options/dimensions.xml" afterDir="false" />
       <change beforePath="$USER_HOME$/Library/Preferences/WebStorm2017.2/options/recentProjectDirectories.xml" beforeDir="false" afterPath="$USER_HOME$/Library/Preferences/WebStorm2017.2/options/recentProjectDirectories.xml" afterDir="false" />
       <change beforePath="$USER_HOME$/Library/Preferences/WebStorm2017.2/options/statistics.shortcuts.xml" beforeDir="false" afterPath="$USER_HOME$/Library/Preferences/WebStorm2017.2/options/statistics.shortcuts.xml" afterDir="false" />
@@ -327,12 +326,12 @@
       <workItem from="1545457563042" duration="248000" />
       <workItem from="1553231739417" duration="3025000" />
       <workItem from="1553268012134" duration="984000" />
-      <workItem from="1553312296334" duration="955000" />
+      <workItem from="1553312296334" duration="1050000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60618000" />
+    <option name="totallyTimeSpent" value="60713000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="95" y="23" width="1825" height="1177" extended-state="0" />
