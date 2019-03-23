@@ -31,7 +31,6 @@
       <change beforePath="$USER_HOME$/Downloads/ExpandingPager-master/ExpandingPager-master.iml" beforeDir="false" />
       <change beforePath="$USER_HOME$/Downloads/mdl-template-blog/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
       <change beforePath="$USER_HOME$/Library/Preferences/WebStorm2017.2/options/dimensions.xml" beforeDir="false" afterPath="$USER_HOME$/Library/Preferences/WebStorm2017.2/options/dimensions.xml" afterDir="false" />
       <change beforePath="$USER_HOME$/Library/Preferences/WebStorm2017.2/options/recentProjectDirectories.xml" beforeDir="false" afterPath="$USER_HOME$/Library/Preferences/WebStorm2017.2/options/recentProjectDirectories.xml" afterDir="false" />
       <change beforePath="$USER_HOME$/Library/Preferences/WebStorm2017.2/options/statistics.shortcuts.xml" beforeDir="false" afterPath="$USER_HOME$/Library/Preferences/WebStorm2017.2/options/statistics.shortcuts.xml" afterDir="false" />
@@ -49,10 +48,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="686">
+            <state relative-caret-position="1766">
               <caret line="78" column="29" lean-forward="true" selection-start-line="78" selection-start-column="29" selection-end-line="78" selection-end-column="29" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#main#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -149,11 +148,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ticket.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="332">
-              <caret line="21" column="20" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="20" />
+            <state relative-caret-position="456">
+              <caret line="190" column="13" lean-forward="true" selection-start-line="190" selection-start-column="13" selection-end-line="190" selection-end-column="13" />
               <folding>
                 <element signature="n#style#0;n#div#2;n#div#0;n#div#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -182,9 +181,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>_qr</find>
-      <find>bg_20</find>
-      <find>bg_</find>
       <find>autumn</find>
       <find>3396</find>
       <find>dbbb</find>
@@ -211,11 +207,15 @@
       <find>gradient</find>
       <find>demo-blog .mdl-card__supporting-text {</find>
       <find>viewform</find>
+      <find>getmdl.io</find>
       <find>view</find>
+      <find>code.getmdl</find>
+      <find>https://code.getmdl.io/1.3.0/</find>
     </findStrings>
     <replaceStrings>
       <replace>.demo-blog .a .something-else</replace>
       <replace>.demo-blog .something-else</replace>
+      <replace />
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -227,9 +227,9 @@
         <option value="$APPLICATION_CONFIG_DIR$/webstorm.vmoptions" />
         <option value="$PROJECT_DIR$/qrcode.js" />
         <option value="$PROJECT_DIR$/gift.html" />
-        <option value="$PROJECT_DIR$/ticket.html" />
         <option value="$PROJECT_DIR$/styles.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/ticket.html" />
       </list>
     </option>
   </component>
@@ -253,7 +253,20 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="su-announcement" type="b2602c69:ProjectViewProjectNode" />
+              <item name="su-announcement" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="HbShouldOpenHtmlAsHb" value="" />
@@ -262,11 +275,12 @@
     <property name="settings.editor.selected.configurable" value="project.propDebugger" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/images" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/images" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -313,18 +327,18 @@
       <workItem from="1545457563042" duration="248000" />
       <workItem from="1553231739417" duration="3025000" />
       <workItem from="1553268012134" duration="984000" />
-      <workItem from="1553312296334" duration="555000" />
+      <workItem from="1553312296334" duration="955000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60218000" />
+    <option name="totallyTimeSpent" value="60618000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="95" y="23" width="1825" height="1177" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.5330789" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.5327051" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -495,19 +509,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ticket.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="21" column="20" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="20" />
-          <folding>
-            <element signature="n#style#0;n#div#2;n#div#0;n#div#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="686">
+        <state relative-caret-position="1766">
           <caret line="78" column="29" lean-forward="true" selection-start-line="78" selection-start-column="29" selection-end-line="78" selection-end-column="29" />
           <folding>
             <element signature="n#style#0;n#div#0;n#main#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -517,6 +521,16 @@
             <element signature="n#style#0;n#div#1;n#div#2;n#div#2;n#main#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#3;n#div#2;n#main#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#4;n#div#2;n#main#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ticket.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="190" column="13" lean-forward="true" selection-start-line="190" selection-start-column="13" selection-end-line="190" selection-end-column="13" />
+          <folding>
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
