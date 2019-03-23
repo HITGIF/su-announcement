@@ -31,9 +31,6 @@
       <change beforePath="$USER_HOME$/Downloads/ExpandingPager-master/ExpandingPager-master.iml" beforeDir="false" />
       <change beforePath="$USER_HOME$/Downloads/mdl-template-blog/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gift.html" beforeDir="false" afterPath="$PROJECT_DIR$/gift.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticket.html" beforeDir="false" afterPath="$PROJECT_DIR$/ticket.html" afterDir="false" />
       <change beforePath="$USER_HOME$/Library/Preferences/WebStorm2017.2/options/dimensions.xml" beforeDir="false" afterPath="$USER_HOME$/Library/Preferences/WebStorm2017.2/options/dimensions.xml" afterDir="false" />
       <change beforePath="$USER_HOME$/Library/Preferences/WebStorm2017.2/options/recentProjectDirectories.xml" beforeDir="false" afterPath="$USER_HOME$/Library/Preferences/WebStorm2017.2/options/recentProjectDirectories.xml" afterDir="false" />
       <change beforePath="$USER_HOME$/Library/Preferences/WebStorm2017.2/options/statistics.shortcuts.xml" beforeDir="false" afterPath="$USER_HOME$/Library/Preferences/WebStorm2017.2/options/statistics.shortcuts.xml" afterDir="false" />
@@ -54,7 +51,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="801">
+            <state relative-caret-position="897">
               <caret line="39" column="16" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="22" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#main#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -81,7 +78,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gift.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="628">
+            <state relative-caret-position="1012">
               <caret line="44" column="22" selection-start-line="44" selection-start-column="22" selection-end-line="44" selection-end-column="22" />
               <folding>
                 <element signature="n#style#0;n#div#2;n#div#0;n#div#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -154,7 +151,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ticket.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="725">
+            <state relative-caret-position="966">
               <caret line="42" column="22" selection-start-line="42" selection-start-column="22" selection-end-line="42" selection-end-column="22" />
               <folding>
                 <element signature="n#style#0;n#div#2;n#div#0;n#div#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -228,10 +225,10 @@
       <list>
         <option value="$APPLICATION_CONFIG_DIR$/webstorm.vmoptions" />
         <option value="$PROJECT_DIR$/qrcode.js" />
-        <option value="$PROJECT_DIR$/styles.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/gift.html" />
         <option value="$PROJECT_DIR$/ticket.html" />
+        <option value="$PROJECT_DIR$/styles.css" />
       </list>
     </option>
   </component>
@@ -314,16 +311,16 @@
       <workItem from="1545354773950" duration="901000" />
       <workItem from="1545457563042" duration="248000" />
       <workItem from="1553231739417" duration="3025000" />
-      <workItem from="1553268012134" duration="756000" />
+      <workItem from="1553268012134" duration="984000" />
+      <workItem from="1553312296334" duration="304000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59435000" />
+    <option name="totallyTimeSpent" value="59967000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="95" y="23" width="1825" height="1177" extended-state="6" />
-    <editor active="true" />
+    <frame x="95" y="23" width="1825" height="1177" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.5330789" />
       <window_info id="Structure" order="1" weight="0.25" />
@@ -403,31 +400,9 @@
     <entry file="file://$PROJECT_DIR$/images/gift.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="920">
-          <caret line="40" column="14" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qrcode.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10051">
-          <caret line="437" selection-start-line="437" selection-end-line="437" />
-          <folding>
-            <marker date="1540606485433" expanded="true" signature="23218:23252" ph="..." />
-            <marker date="1540606485433" expanded="true" signature="23450:23597" ph="..." />
-            <marker date="1540606485433" expanded="true" signature="23818:23965" ph="..." />
-            <marker date="1540606485433" expanded="true" signature="24060:24258" ph="..." />
-            <marker date="1540606485433" expanded="true" signature="24368:24515" ph="..." />
-            <marker date="1540606485433" expanded="true" signature="24759:24906" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="801">
+        <state relative-caret-position="897">
           <caret line="39" column="16" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="22" />
           <folding>
             <element signature="n#style#0;n#div#0;n#main#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -441,9 +416,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="920">
+          <caret line="40" column="14" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/gift.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="628">
+        <state relative-caret-position="1012">
           <caret line="44" column="22" selection-start-line="44" selection-start-column="22" selection-end-line="44" selection-end-column="22" />
           <folding>
             <element signature="n#style#0;n#div#2;n#div#0;n#div#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -512,9 +494,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/qrcode.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10051">
+          <caret line="437" selection-start-line="437" selection-end-line="437" />
+          <folding>
+            <marker date="1540606485433" expanded="true" signature="23218:23252" ph="..." />
+            <marker date="1540606485433" expanded="true" signature="23450:23597" ph="..." />
+            <marker date="1540606485433" expanded="true" signature="23818:23965" ph="..." />
+            <marker date="1540606485433" expanded="true" signature="24060:24258" ph="..." />
+            <marker date="1540606485433" expanded="true" signature="24368:24515" ph="..." />
+            <marker date="1540606485433" expanded="true" signature="24759:24906" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ticket.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="725">
+        <state relative-caret-position="966">
           <caret line="42" column="22" selection-start-line="42" selection-start-column="22" selection-end-line="42" selection-end-column="22" />
           <folding>
             <element signature="n#style#0;n#div#2;n#div#0;n#div#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
